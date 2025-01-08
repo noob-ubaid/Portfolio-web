@@ -89,6 +89,20 @@
   align-items: center;
   gap: 14px;
 }
+.section-title{
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.container{
+  max-width: 1140px;
+  margin: 130px auto;
+
+}
 
 
 /* banner section */
@@ -135,3 +149,109 @@
   gap: 30px;
   margin-top: 20px;
 }
+
+
+
+/* about section  */
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  padding: 157px 210px;
+  
+}
+.about-section{
+  border: 1px solid rgb(24, 24, 24);
+  padding: 6px;
+  background-color: #ffffff;
+}
+.about-description{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 827px;
+  margin-top: 10px;
+}
+.me{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.me-title{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.me-name{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+
+
+/*? skills section  */
+.skills{
+  margin-top: 130px;
+}
+.skills-container{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill{
+  width: 267px;
+  background-color: #ffffff;
+  padding: 30px 27px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);  
+  /* border: 1px solid rgb(24, 24, 24); */
+}
+.skill-description{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 909px;
+  margin: 32px auto;
+}
+
+.skill-dec{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 25px;
+}
+.skill-title{
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+}
+
